@@ -45,7 +45,7 @@ ggplot(missing_count, aes(x = reorder(variable, missing), y = missing)) +
 
 #### 5.2.2.2 Missing Grade by Inspection Type
 
-The missing values in GRADE do not appear to be random. Some inspection types have much higher proportions of missing grades, which suggests that grades may not be assigned for certain inspection processes. This is important because later analyses using GRADE should be interpreted carefully.
+The missing values in GRADE do not appear to be random. Some inspection types have much higher proportions of missing grades which suggests that grades may not be assigned for certain inspection processes. This is important because later analyses using GRADE should be interpreted carefully.
 
 ```{r}
 
